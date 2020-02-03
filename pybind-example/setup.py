@@ -3,7 +3,6 @@ import os, sys
 
 from setuptools import setup, Extension
 
-# cpp_args = ['-std=c++11', '-stdlib=libc++', '-mmacosx-version-min=10.7']
 cpp_args = ['-std=c++11']
 
 ext_modules = [
@@ -19,8 +18,8 @@ ext_modules = [
 setup(
     name='wrap',
     version='0.0.1',
-    author='Cliburn Chan',
-    author_email='cliburn.chan@duke.edu',
+    author='UserName',
+    author_email='user@example.com',
     description='Example',
     ext_modules=ext_modules,
 )

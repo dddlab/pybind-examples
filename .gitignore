@@ -1,3 +1,6 @@
+# project specific
+eigen-3.3.7/
+
 # reproducible setup
 .dddlab/
 .env

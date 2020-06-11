@@ -1,7 +1,7 @@
 .PHONY: help build dev test test-env
 
 # Docker image name and tag
-IMAGE:=dddlab/project-template
+IMAGE:=dddlab/pybind-example
 TAG?=latest
 # Shell that make should use
 SHELL:=bash

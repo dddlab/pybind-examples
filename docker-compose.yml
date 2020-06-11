@@ -8,10 +8,10 @@ services:
     volumes:
       - ${HOST_DIR}:/home/jovyan/work
       - ${CERT_DIR}:/etc/ssl/notebook
-    user: 'root' # passwordless sudo
+    user: 'root' # GRANT_SUDO: 'yes' # needed for
     environment:
       JUPYTER_ENABLE_LAB: 'yes'
-      GRANT_SUDO: 'yes'
+      GRANT_SUDO: 'yes' # user: 'root' # needed
     ports:
       - ${PORT:-8888}:8888
     command: "start-notebook.sh \

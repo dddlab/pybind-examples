@@ -1,5 +1,6 @@
 # project specific
 eigen-3.3.7/
+*cppimporthash
 
 # reproducible setup
 .dddlab/
